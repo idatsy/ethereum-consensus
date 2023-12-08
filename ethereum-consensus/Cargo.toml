@@ -31,7 +31,8 @@ ec = [
 ]
 
 [dependencies]
-ssz_rs = { git = "https://github.com/idatsy/ssz-rs" }
+ssz_rs = { git = "https://github.com/idatsy/ssz-rs", rev = "ba0452fb3aa036781de106d3973e7e0912385d6e" }
+
 blst = "0.3.11"
 rand = "0.8.4"
 thiserror = "1.0.30"
